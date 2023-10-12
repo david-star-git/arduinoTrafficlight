@@ -48,7 +48,7 @@ Esta variable especifica el número total de semaforo. En el ejemplo, tienes dos
 ```cpp
 int currentLamp = 1;
 ```
-Esta variable realiza un seguimiento de la lámpara actual que se está controlando. Permite que el código recorra las semaforo de manera eficiente.
+Esta variable realiza un seguimiento de la semaforo actual que se está controlando. Permite que el código recorra las semaforo de manera eficiente.
 
 ### Temporizaciones
 
@@ -107,7 +107,7 @@ void controlLamp(int lampNum, int color, int state) {
   }
 }
 ```
-La función `controlLamp` te permite controlar las luces de una lámpara específica especificando su número, el color y el estado (encendido o apagado). Esta función encapsula la lógica para establecer el pin correspondiente según los parámetros proporcionados, lo que hace que el código sea más modular y legible.
+La función `controlLamp` te permite controlar las luces de una semaforo específica especificando su número, el color y el estado (encendido o apagado). Esta función encapsula la lógica para establecer el pin correspondiente según los parámetros proporcionados, lo que hace que el código sea más modular y legible.
 
 ### turnOnAllRedLights
 
@@ -158,6 +158,6 @@ void loop() {
   currentLamp = (currentLamp % numLamps) + 1;
 }
 ```
-En la función `loop`, el código controla la secuencia del semáforo. Maneja secuencialmente cada lámpara, enciende y apaga las luces y lleva un seguimiento del tiempo y se mueve eficientemente a la siguiente lámpara. Este enfoque minimiza la redundancia y es eficiente porque se escala fácilmente a diferentes números de semaforo. El uso de funciones como `controlLamp` y `turnOnAllRedLights` también mantiene el código organizado y mantenible, lo que facilita su modificación y ampliación.
+En la función `loop`, el código controla la secuencia del semáforo. Maneja secuencialmente cada semaforo, enciende y apaga las luces y lleva un seguimiento del tiempo y se mueve eficientemente a la siguiente semaforo. Este enfoque minimiza la redundancia y es eficiente porque se escala fácilmente a diferentes números de semaforo. El uso de funciones como `controlLamp` y `turnOnAllRedLights` también mantiene el código organizado y mantenible, lo que facilita su modificación y ampliación.
 
 `controlLamp(currentLamp, x, y);` Nos permite encender y apagar las luces del semáforo de manera eficiente. La primera variable, `currentLamp`, siempre nos indica qué semáforo estamos cambiando y no necesita ser modificada. x puede ser 0 para rojo, 1 para amarillo o 2 para verde, y y puede ser 0 para apagado o 1 para encendido.
