@@ -1,3 +1,7 @@
+## Versiones en Idiomas
+[![Inglés](https://img.shields.io/badge/Inglés-English-blue)](readme.md)
+[![Alemán](https://img.shields.io/badge/Alemán-German-blue)](readme_de.md)
+[![Español](https://img.shields.io/badge/Español-Spanish-blue)](readme_es.md)
 
 # Introducción
 
