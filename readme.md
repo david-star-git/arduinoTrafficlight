@@ -1,3 +1,8 @@
+## Language Versions
+[![English](https://img.shields.io/badge/English-English-blue)](readme.md)
+[![German](https://img.shields.io/badge/Deutsch-German-blue)](readme_de.md)
+[![Spanish](https://img.shields.io/badge/Español-Spanish-blue)](readme_es.md)
+
 # Introduction
 
 Traffic management is a critical aspect of urban planning, and understanding the operation of traffic lights is fundamental to creating efficient transportation systems. Our group school project focuses on the design and control of a simulated traffic light system using an Arduino microcontroller. The objective of this project is to provide a hands-on learning experience in the field of embedded systems and programming.
