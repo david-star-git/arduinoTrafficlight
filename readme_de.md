@@ -168,3 +168,7 @@ void loop() {
 In der `loop`-Funktion steuert der Code die Verkehrsampelsequenz. Er behandelt nacheinander jede Lampe, schaltet die Lichter ein und aus und behält dabei die Zeit im Auge, bevor er effizient zur nächsten Lampe wechselt. Diese Herangehensweise minimiert Redundanz und ist effizient, da sie sich problemlos auf verschiedene Lampenanzahlen skalieren lässt. Die Verwendung von Funktionen wie `controlLamp` und `turnOnAllRedLights` hält den Code organisiert und wartbar, was die Modifikation und Erweiterung erleichtert.
 
 `controlLamp(currentLamp, x, y);` Erlaubt es uns, die Lichter effizient ein- und auszuschalten. Die erste Variable `currentLamp` gibt immer an, welche Lampe gerade geändert wird. Dies muss nicht geändert werden. x ist entweder 0 für rot, 1 für gelb oder 2 für grün und y ist entweder 0 für aus oder 1 für an.
+
+## Lizenz
+
+Dieses Projekt steht unter der [GNU General Public License, Version 3.0](LICENSE). Den vollständigen Lizenztext finden Sie [hier](https://www.gnu.org/licenses/gpl-3.0.html).
