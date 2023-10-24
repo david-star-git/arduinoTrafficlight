@@ -166,3 +166,7 @@ void loop() {
 In the `loop` function, the code controls the traffic light sequence. It sequentially handles each lamp, turning on and off the lights while keeping track of timing and efficiently moving to the next lamp. This approach minimizes redundancy and is efficient because it scales easily to different numbers of lamps. The use of functions like `controlLamp` and `turnOnAllRedLights` also keeps the code organized and maintainable, making it easier to modify and extend.
 
 `controlLamp(currentLamp, x, y);` Allows us to to turn the lights on and off efficiently. The first variable `currentLamp` always tells us what lamp we are changing this doesn't need to be changed. x is either 0 for red, 1 for yellow or 2 for green and y is either 0 for off or 1 for on.
+
+## License
+
+This project is licensed under the [GNU General Public License, version 3.0](LICENSE). You can find the full license text [here](https://www.gnu.org/licenses/gpl-3.0.html).
