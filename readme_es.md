@@ -165,3 +165,7 @@ void loop() {
 En la función `loop`, el código controla la secuencia del semáforo. Maneja secuencialmente cada semaforo, enciende y apaga las luces y lleva un seguimiento del tiempo y se mueve eficientemente a la siguiente semaforo. Este enfoque minimiza la redundancia y es eficiente porque se escala fácilmente a diferentes números de semaforo. El uso de funciones como `controlLamp` y `turnOnAllRedLights` también mantiene el código organizado y mantenible, lo que facilita su modificación y ampliación.
 
 `controlLamp(currentLamp, x, y);` Nos permite encender y apagar las luces del semáforo de manera eficiente. La primera variable, `currentLamp`, siempre nos indica qué semáforo estamos cambiando y no necesita ser modificada. x puede ser 0 para rojo, 1 para amarillo o 2 para verde, y y puede ser 0 para apagado o 1 para encendido.
+
+## Licencia
+
+Este proyecto está bajo la [Licencia Pública General de GNU, versión 3.0](LICENSE). Puedes encontrar el texto completo de la licencia [aquí](https://www.gnu.org/licenses/gpl-3.0.html).
